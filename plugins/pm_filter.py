@@ -240,11 +240,7 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#files#{offset}#{req}"),
-        InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
-    ])
-    btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton(f'👇 𝑌𝑜𝑢𝑟 𝑓𝑖𝑙𝑒𝑠 𝑖𝑠 𝑟𝑒𝑎𝑑𝑦 𝑛𝑜𝑤 👇', 'ginfo')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -352,12 +348,7 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
-            InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{userid}"),
-            InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{userid}")
-        ])
-
-        btn.insert(0, [
-            InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton(f'👇 𝑌𝑜𝑢𝑟 𝑓𝑖𝑙𝑒𝑠 𝑖𝑠 𝑟𝑒𝑎𝑑𝑦 𝑛𝑜𝑤 👇', 'ginfo')
         ])
 
         if offset != "":
@@ -1615,7 +1606,7 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton('👇 𝑌𝑜𝑢𝑟 𝑓𝑖𝑙𝑒𝑠 𝑖𝑠 𝑟𝑒𝑎𝑑𝑦 𝑛𝑜𝑤 👇', 'ginfo' )
+        InlineKeyboardButton(f'👇 𝑌𝑜𝑢𝑟 𝑓𝑖𝑙𝑒𝑠 𝑖𝑠 𝑟𝑒𝑎𝑑𝑦 𝑛𝑜𝑤 👇', 'ginfo')
     ])
 
     if offset != "":
@@ -1675,7 +1666,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}.</b>"
+        cap = f"<b>𝐻𝑦𝑦 😍 {message.from_user.mention},👋🏻  📬 𝑇𝑖𝑡𝑙𝑒 {search} 🔰 𝑇ℎ𝑥 𝐹𝑜𝑟 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 🎯</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
