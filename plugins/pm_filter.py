@@ -1702,11 +1702,16 @@ async def auto_filter(client, msg, spoll=False):
                     await asyncio.sleep(600)
                     await fek.delete()
                     await message.delete()
+                    await message.reply_text(
+                        text=f"Fɪʟᴛᴇʀ Cʟᴏsᴇᴅ 🗑️\n\n✒️Tɪᴛʟᴇ : {search}\n📌 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention}\n🗳️Uᴘʟᴏᴀᴅᴇᴅ Bʏ :{message.chat.title}")                         
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
                 await fek.delete()
                 await message.delete()
+                await message.reply_text(
+                    text=f"Fɪʟᴛᴇʀ Cʟᴏsᴇᴅ 🗑️\n\n✒️Tɪᴛʟᴇ : {search}\n📌 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {message.from_user.mention}\n🗳️Uᴘʟᴏᴀᴅᴇᴅ Bʏ :{message.chat.title}")           
+   
     else:
         fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
