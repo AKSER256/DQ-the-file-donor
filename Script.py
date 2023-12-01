@@ -13,8 +13,8 @@ class script(object):
 📚 𝑭𝒓𝒂𝒎𝒆𝒘𝒐𝒓𝒌 : <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒓𝒐𝒈𝒓𝒂𝒎</a>
 📝 𝑳𝒂𝒏𝒈𝒖𝒂𝒈𝒆 : <a href='https://www.python.org/download/releases/3.0/'>𝑷𝒚𝒕𝒉𝒐𝒏 3</a>
 📡 𝑯𝒐𝒔𝒕𝒆𝒅 𝑶𝒏 : <a href=' https://www.koyeb.com/'>𝑲𝒐𝒚𝒆𝒃</a>
-👥 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 : <a href='https://t.me/moviesworld_malayalam'>𝑴𝒘𝑴</a>
-📢 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 : <a href='https://t.me/+kzIZY6esOHw5YmRl'>𝑴𝒘𝑴 𝑼𝑷𝑫𝑨𝑻𝑬𝑺 📢</a>"""
+👥 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 : <a href='https://t.me/AJ_Robots_SUPPORT'>𝐴𝐽 𝑅𝑜𝑏𝑜𝒕𝑆 Support</a>
+📢 𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 : <a href='https://t.me/AJ_Robots'>𝐴𝐽 𝑅𝑜𝑏𝑜𝒕𝑆 📢</a>"""
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - നോക്കണ്ട കിട്ടൂല 😁
 - തൊട്ട് നോക്ക് 😌 - <a href="https://t.me/AJTGx">𝑨𝑱 𝑻𝑮</a>
