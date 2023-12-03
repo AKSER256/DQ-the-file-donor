@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⎚ 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 ⎚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎁 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 🎁', callback_data='help'),
-                    InlineKeyboardButton('🪬 𝑨𝒃𝒐𝒖𝒕 🪬', callback_data='about'),
+                    InlineKeyboardButton('🛠️ 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 🎛️', callback_data='help'),
+                    InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 📟', callback_data='about'),
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⎚ 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 ⎚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎁 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 🎁', callback_data='help'),
-                    InlineKeyboardButton('🪬 𝑨𝒃𝒐𝒖𝒕 🪬', callback_data='about'),
+                    InlineKeyboardButton('🛠️ 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 🎛️', callback_data='help'),
+                    InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 📟', callback_data='about'),
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,8 +90,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⎚ 𝑨𝒅𝒅 𝑴𝒆 𝑻𝒐 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑 ⎚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🎁 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 🎁', callback_data='help'),
-                    InlineKeyboardButton('🪬 𝑨𝒃𝒐𝒖𝒕 🪬', callback_data='about'),
+                    InlineKeyboardButton('🛠️ 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 🎛️', callback_data='help'),
+                    InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 📟', callback_data='about'),
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
